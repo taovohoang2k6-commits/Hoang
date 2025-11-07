@@ -10,10 +10,10 @@ for (let i = 0; i < 3; i++) {
 // Thêm thuộc tính điểm và in ra
 const student = {
   name: "ThuyTien",
-  grade: "A",
   age: 20,
   diem:10,
 };
+student.grade = "A"
 student.age = 21,
 console.log(student)
 // Thực hiện các thao tác sau:
@@ -53,4 +53,17 @@ const rectangle = {
   describe() {
     return `Rectangle ${this.width}x${this.height}, color: ${this.color}`;
   },
+};
+// Tạo object configuration với computed property names
+const env = "production";
+const version = "v2";
+const features = ["auth", "payment", "notification"];
+
+// Tạo object config với:
+// - key: `api_${env}_${version}`
+// - key cho từng feature: `feature_${featureName}`
+// - method: `get${env}Config()`
+
+const config = {
+  // Viết code ở đây
 };
