@@ -19,7 +19,7 @@ const getRandomNumberArrow = ()=> Math.random()
 // Function 4
 
 // Thu thập tất cả tham số
-function sumAll(...numbers) {
+ sumAll = (...numbers) =>{
   return numbers.reduce((total, num) => total + num, 0);
 }
 console.log (sumAll(1,1,3));
@@ -42,3 +42,13 @@ isAdmin,
 }
   console.log(createUser());
   console.log(createUser("haha",25, true))
+function shoppingCart(customerName, ...products) {
+  return {
+    customer: customerName,
+    items: products,
+    totalItems: products.length
+  };
+}
+const cart = shoppingCart("Hoàng", "Laptop", "Chuột", "Bàn phím");
+console.log(cart);
+
