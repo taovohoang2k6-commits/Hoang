@@ -30,7 +30,7 @@ function introduce(name, age, ...hobbies) {
   console.log(`Age: ${age}`);
   console.log(`Hobbies: ${hobbies.join(", ")}`);
 }
-introduce("Hoàng" , 19 , "ăn" , "chơi" , "ngủ" , "nghỉ");
+introduce("Hoàng" , 19 , "ăn" , "chơi" , "ngủ" , "nghỉ", "lập trình");
 
 
  createUser=(name ="Anonymous" , age = 18, isAdmin =false)=> {
@@ -42,6 +42,7 @@ isAdmin,
 }
   console.log(createUser());
   console.log(createUser("haha",25, true))
+  
 function shoppingCart(customerName, ...products) {
   return {
     customer: customerName,
