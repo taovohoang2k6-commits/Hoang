@@ -1,13 +1,13 @@
 function Header() {
   return (
-    <nav className="bg-white shadow-sm py-3 px-6 rounded-2xl">
-      <ul className="flex items-center gap-6 text-gray-700 font-medium">
+    <nav className="bg-white shadow-sm py-3 px-6 ">
+      <ul className="flex items-center gap-6 text-gray-700 font-medium justify-center">
         <li>
           <a
             href="#"
             className="hover:text-blue-600 transition-colors duration-200"
           >
-            Home
+            TOUR QUỐC TẾ
           </a>
         </li>
         <li>
@@ -15,7 +15,7 @@ function Header() {
             href="#"
             className="hover:text-blue-600 transition-colors duration-200"
           >
-            Home1
+            TOUR NỘI ĐỊA
           </a>
         </li>
         <li>
@@ -23,7 +23,7 @@ function Header() {
             href="#"
             className="hover:text-blue-600 transition-colors duration-200"
           >
-            Home2
+            DỊCH VỤ TƯ VẤN VISA
           </a>
         </li>
         <li>
@@ -31,7 +31,23 @@ function Header() {
             href="#"
             className="hover:text-blue-600 transition-colors duration-200"
           >
-            Home3
+           MICE – TEAMBUILDING
+          </a>
+        </li>
+                <li>
+          <a
+            href="#"
+            className="hover:text-blue-600 transition-colors duration-200"
+          >
+           Giới thiệu
+          </a>
+        </li>
+                <li>
+          <a
+            href="#"
+            className="hover:text-blue-600 transition-colors duration-200"
+          >      
+             Tin tức
           </a>
         </li>
       </ul>
